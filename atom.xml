@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-03-15T00:27:58+08:00</updated>
+    <updated>2020-03-15T00:39:40+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -16,6 +16,33 @@
             </author>
     <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
+        <entry>
+            <title type="text">Test</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/test/" />
+            <id>https://cyzcyzz.github.io/posts/test/</id>
+            <updated>2020-03-15T00:27:35+08:00</updated>
+            <published>2020-03-15T00:24:26+08:00</published>
+            <author>
+                    <name>oyfacc</name>
+                    <uri>https://cyzcyzz.github.io/</uri>
+                    <email>cyzcyzz@163.com</email>
+                    </author>
+            <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights><summary type="html"><![CDATA[]]></summary>
+            
+                <content type="html"><![CDATA[]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Docker三部曲</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker-%E4%B8%89%E9%83%A8%E6%9B%B2/" />
