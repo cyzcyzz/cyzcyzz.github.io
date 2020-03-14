@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">OyFaCC</title>
+    <subtitle type="html">程元召的个人博客！</subtitle>
+    <updated>2020-03-15T00:04:09+08:00</updated>
+    <id>https://cyzcyzz.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
+    <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
+    <author>
+            <name>oyfacc</name>
+            <uri>https://cyzcyzz.github.io/</uri>
+            
+                <email>cyzcyzz@163.com</email>
+            </author>
+    <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
+    <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
+</feed>
