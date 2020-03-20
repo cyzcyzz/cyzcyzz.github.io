@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-03-15T00:39:40+08:00</updated>
+    <updated>2020-03-20T15:26:23+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -17,19 +17,244 @@
     <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
         <entry>
-            <title type="text">Test</title>
-            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/test/" />
-            <id>https://cyzcyzz.github.io/posts/test/</id>
-            <updated>2020-03-15T00:27:35+08:00</updated>
-            <published>2020-03-15T00:24:26+08:00</published>
+            <title type="text">Linux基础入门</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/linux-one/" />
+            <id>https://cyzcyzz.github.io/posts/linux-one/</id>
+            <updated>2020-03-20T15:25:43+08:00</updated>
+            <published>2020-03-16T23:33:11+08:00</published>
             <author>
                     <name>oyfacc</name>
                     <uri>https://cyzcyzz.github.io/</uri>
                     <email>cyzcyzz@163.com</email>
                     </author>
-            <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights><summary type="html"><![CDATA[]]></summary>
+            <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
+    
+    <summary type="html"><![CDATA[概述 冯诺伊曼体系结构的计算机是现在计算机系统的基石。现代计算机系统，在整体上划分为硬……]]></summary>
             
-                <content type="html"><![CDATA[]]></content>
+                <content type="html"><![CDATA[<h2 id="概述">概述</h2>
+<p><img src="http://q6pfan53o.bkt.clouddn.com/uPic/Linux%E7%AC%AC%E4%B8%80%E7%AB%A0.png" alt="one-one"></p>
+<p>  冯诺伊曼体系结构的计算机是现在计算机系统的基石。现代计算机系统，在整体上划分为硬件系统和软件系统。硬件系统又包括内部的硬件和外部的硬件。内部硬件主要包含CPU和内存，cpu就包含传统的控制器和运算器还有寄存器这些，内存分为RAM（随机存取存储器），ROM（只读存储器）。外部设备又包含硬盘存储，输入和输出设备等。而软件主要分为系统软件和应用软件。系统软件有操作系统，数据库系统这些。应用软件主要是通用软件和专用软件，如360杀毒是应用软件，如erp系统就属于专用软件。</p>
+<p>操作系统是基石，也是最重要的系统软件，是和硬件交互的主要渠道，也是各类应用软件的载体。Linux操作系统是主流的操作系统，是开源领域软件的杰出代表，占据服务器的操作系统的大部分市场，可以说Linux系统是非常重要的。</p>
+<p>通常所说的linux系统，主要指带Linux内核，根据开源软件协议，各发行商将工具融合和linux一起打包成便于操作的系统，这就是不同的linux发型版的由来。linux的发型版是非常多的，而主流的主要分为如下的几个：</p>
+<table>
+<thead>
+<tr>
+<th>系统名称</th>
+<th>代表1</th>
+<th>代表2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fedora系</td>
+<td>redhat</td>
+<td>centos</td>
+</tr>
+<tr>
+<td>debian系</td>
+<td>ubuntu</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>发型版系统= linux内核+GNU工具</p>
+<p>计算机体系结构方面的知识可以参照上图，具体和详细的可以推荐参考《计算机组成原理》这本书，作者是唐朔飞，这是很多大学计算机专业课用书，专业度毋庸置疑。链接在这里<a href="https://item.jd.com/12271404.html">组成原理链接</a></p>
+<h3 id="命令总结">命令总结</h3>
+<h5 id="lscpu命令查看当前机器的cpu信息">lscpu命令：查看当前机器的cpu信息</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops ~<span class="o">]</span><span class="c1"># lscpu</span>
+Architecture:          x86_64
+CPU op-mode<span class="o">(</span>s<span class="o">)</span>:        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU<span class="o">(</span>s<span class="o">)</span>:                <span class="m">4</span>
+On-line CPU<span class="o">(</span>s<span class="o">)</span> list:   0-3
+Thread<span class="o">(</span>s<span class="o">)</span> per core:    <span class="m">2</span>
+Core<span class="o">(</span>s<span class="o">)</span> per socket:    <span class="m">2</span>
+Socket<span class="o">(</span>s<span class="o">)</span>:             <span class="m">1</span>
+NUMA node<span class="o">(</span>s<span class="o">)</span>:          <span class="m">1</span>
+Vendor ID:             GenuineIntel
+CPU family:            <span class="m">6</span>
+Model:                 <span class="m">85</span>
+Model name:            Intel<span class="o">(</span>R<span class="o">)</span> Xeon<span class="o">(</span>R<span class="o">)</span> Gold <span class="m">6151</span> CPU @ 3.00GHz
+Stepping:              <span class="m">4</span>
+CPU MHz:               3000.000
+BogoMIPS:              6000.00
+Hypervisor vendor:     KVM
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              25344K
+NUMA node0 CPU<span class="o">(</span>s<span class="o">)</span>:     0-3
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="file命令查看文件类型">file命令：查看文件类型</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops ~<span class="o">]</span><span class="c1"># file alertmanager</span> 
+alertmanager: ELF 64-bit LSB executable, x86-64, version <span class="m">1</span> <span class="o">(</span>SYSV<span class="o">)</span>, statically linked, not stripped 可执行文件
+<span class="o">[</span>root@ops ~<span class="o">]</span><span class="c1"># file a.json</span> 
+a.json: ASCII text 文本文件
+<span class="o">[</span>root@ops ~<span class="o">]</span><span class="c1"># file control.sh</span> 
+control.sh: Bourne-Again shell script, ASCII text executable shell文件
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="hexdump命令查看二进制文件的内容">hexdump命令：查看二进制文件的内容</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops bin<span class="o">]</span><span class="c1"># hexdump -c -n 100 redis-cli</span>    
+<span class="m">0000000</span> <span class="m">177</span>   E   L   F <span class="m">002</span> <span class="m">001</span> <span class="m">001</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>
+<span class="m">0000010</span> <span class="m">002</span>  <span class="se">\0</span>   &gt;  <span class="se">\0</span> <span class="m">001</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>   <span class="m">4</span>   e   @  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>
+<span class="m">0000020</span>   @  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>   <span class="sb">`</span> <span class="m">345</span>  <span class="se">\a</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>
+<span class="m">0000030</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>   @  <span class="se">\0</span>   <span class="m">8</span>  <span class="se">\0</span>  <span class="se">\t</span>  <span class="se">\0</span>   @  <span class="se">\0</span>   <span class="p">&amp;</span>  <span class="se">\0</span>   %  <span class="se">\0</span>
+<span class="m">0000040</span> <span class="m">006</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span> <span class="m">005</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>   @  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>
+<span class="m">0000050</span>   @  <span class="se">\0</span>   @  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>   @  <span class="se">\0</span>   @  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>  <span class="se">\0</span>
+<span class="m">0000060</span> <span class="m">370</span> <span class="m">001</span>  <span class="se">\0</span>  <span class="se">\0</span>                                                
+<span class="m">0000064</span>
+-c: 16进制格式查看
+-n 100: 显示前100位
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="lsblk-查看所有的块设备">lsblk: 查看所有的块设备</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops bin<span class="o">]</span><span class="c1"># lsblk</span> 
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+vdb    253:16   <span class="m">0</span>  500G  <span class="m">0</span> disk 
+└─vdb1 253:17   <span class="m">0</span>  500G  <span class="m">0</span> part 
+vda    253:0    <span class="m">0</span>  100G  <span class="m">0</span> disk 
+└─vda1 253:1    <span class="m">0</span>  100G  <span class="m">0</span> part /
+名字 主设备号:次设备号 移动设备 大小 只读 类型 挂载点
+移动设备 标记为1
+只读设备 标记为1
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="sha1sum查看哈希校验码">sha1sum：查看哈希校验码</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops bin<span class="o">]</span><span class="c1"># sha1sum redis-cli</span> 
+f03302d1760eba294b8996e59b9b56f519499869  redis-cli
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="ldd查看命令使用的链接库">ldd：查看命令使用的链接库</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops bin<span class="o">]</span><span class="c1"># ldd redis-cli</span> 
+        linux-vdso.so.1 <span class="o">=</span>&gt;  <span class="o">(</span>0x00007ffd40ba2000<span class="o">)</span>
+        libm.so.6 <span class="o">=</span>&gt; /lib64/libm.so.6 <span class="o">(</span>0x00007f68af811000<span class="o">)</span>
+        libdl.so.2 <span class="o">=</span>&gt; /lib64/libdl.so.2 <span class="o">(</span>0x00007f68af60d000<span class="o">)</span>
+        libpthread.so.0 <span class="o">=</span>&gt; /lib64/libpthread.so.0 <span class="o">(</span>0x00007f68af3f1000<span class="o">)</span>
+        libc.so.6 <span class="o">=</span>&gt; /lib64/libc.so.6 <span class="o">(</span>0x00007f68af024000<span class="o">)</span>
+        /lib64/ld-linux-x86-64.so.2 <span class="o">(</span>0x00007f68afb13000<span class="o">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="dd-转换和复制一个文件">dd: 转换和复制一个文件</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@ops ~<span class="o">]</span><span class="c1"># dd if=/dev/zero of=f1 bs=1M count=100</span>
+100+0 records in
+100+0 records out
+<span class="m">104857600</span> bytes <span class="o">(</span><span class="m">105</span> MB<span class="o">)</span> copied, 0.0613801 s, 1.7 GB/s
+<span class="k">if</span>: 文件源
+of: 目的文件
+bs: 单个块大小
+count: 总共写入多少块
+<span class="nv">总大小</span><span class="o">=</span>bs乘count
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="其他相关总结">其他相关总结</h3>
+<p>cpu指令集：x86架构主要使用CISC复杂指令集，价格相对便宜，还有 RISC精简指令集和EPIC并行指令代码，主要用于专用的服务器，价格相对高昂</p>
+<p>bit和byte：位和字节，b和B，1B=8b，也就是一字节等于8位</p>
+<h4 id="linux哲学思想">Linux哲学思想</h4>
+<p>一切都是一个文件</p>
+<p>小型，单一用途的程序</p>
+<p>链接程序，共同完成复杂的操作</p>
+<p>避免令人困惑的用户界面</p>
+<p>配置数据存储在文本中</p>
+]]></content>
             
             
             
@@ -37,7 +262,23 @@
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/linux/" term="linux" label="linux" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/%E5%9F%BA%E7%A1%80/" term="基础" label="基础" />
+                            
+                        
                     
                 
             
@@ -47,7 +288,7 @@
             <title type="text">Docker三部曲</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker-%E4%B8%89%E9%83%A8%E6%9B%B2/" />
             <id>https://cyzcyzz.github.io/posts/docker-%E4%B8%89%E9%83%A8%E6%9B%B2/</id>
-            <updated>2020-03-15T00:27:40+08:00</updated>
+            <updated>2020-03-16T23:39:22+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -56,10 +297,9 @@
                     </author>
             <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
     
-    <summary type="html"><![CDATA[Docker 三部曲 概述 对于整个docker容器技术的体系来说，主要划分为三部分：镜像，容器和仓……]]></summary>
+    <summary type="html"><![CDATA[概述 对于整个docker容器技术的体系来说，主要划分为三部分：镜像，容器和仓库 什么是……]]></summary>
             
-                <content type="html"><![CDATA[<h1 id="docker-三部曲">Docker 三部曲</h1>
-<h2 id="概述">概述</h2>
+                <content type="html"><![CDATA[<h2 id="概述">概述</h2>
 <p>  对于整个docker容器技术的体系来说，主要划分为三部分：镜像，容器和仓库</p>
 <h2 id="什么是镜像">什么是镜像</h2>
 <p>  在操作系统的体系，整个空间被横向切割为两大空间，内核空间和用户空间，在Linux系统启动的时候，内核启动后，会挂载一个root文件系统为用户空间提供支持，而镜像其实就是一个root文件系统，但是是一种特殊的root文件系统，提供包含了容器运行时所需要的程序，文件，资源，库，配置，还包含一些环境变量，用户等，镜像包含的全是静态的文件，在构建完成后，将不会改变。</p>
@@ -83,7 +323,23 @@
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/docker/" term="docker" label="docker" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/docker%E5%9F%BA%E7%A1%80/" term="docker基础" label="docker基础" />
+                            
+                        
                     
                 
             
@@ -93,7 +349,7 @@
             <title type="text">Docker镜像操作</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker%E9%95%9C%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/" />
             <id>https://cyzcyzz.github.io/posts/docker%E9%95%9C%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
-            <updated>2020-03-15T00:27:42+08:00</updated>
+            <updated>2020-03-16T23:40:39+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -102,10 +358,9 @@
                     </author>
             <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
     
-    <summary type="html"><![CDATA[Docker镜像的基本操作 容器启动之前，镜像必须先存在本地，如果本地不存在镜像，回去……]]></summary>
+    <summary type="html"><![CDATA[容器启动之前，镜像必须先存在本地，如果本地不存在镜像，回去仓库获取镜像，并且pull……]]></summary>
             
-                <content type="html"><![CDATA[<h1 id="docker镜像的基本操作">Docker镜像的基本操作</h1>
-<p>  容器启动之前，镜像必须先存在本地，如果本地不存在镜像，回去仓库获取镜像，并且pull的本地</p>
+                <content type="html"><![CDATA[<p>容器启动之前，镜像必须先存在本地，如果本地不存在镜像，回去仓库获取镜像，并且pull的本地</p>
 <h2 id="获取镜像">获取镜像</h2>
 <p>  获取镜像的命令是<code>docker pull</code>命令，命令格式如下：</p>
 <pre><code class="language-linux" data-lang="linux">docker pull [选项] [docker registry 地址/仓库名:标签]
@@ -180,17 +435,33 @@ Deleted: sha256:97ca462ad9eeae25941546209454496e1d66749d53dfa2ee32bf1faabd239d38
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/docker/" term="docker" label="docker" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/image/" term="image" label="image" />
+                            
+                        
                     
                 
             
         </entry>
     
         <entry>
-            <title type="text">Kubernetes基本概念</title>
+            <title type="text">Kubernetes基本概念一</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/kubernetes-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" />
             <id>https://cyzcyzz.github.io/posts/kubernetes-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</id>
-            <updated>2020-03-15T00:27:32+08:00</updated>
+            <updated>2020-03-16T23:35:47+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -199,10 +470,9 @@ Deleted: sha256:97ca462ad9eeae25941546209454496e1d66749d53dfa2ee32bf1faabd239d38
                     </author>
             <rights>[OyFaCC - BLOG](http://www.oyfacc.cn/)</rights>
     
-    <summary type="html"><![CDATA[Kubernetes基本概念一 node node即节点，是物理服务器或者虚拟服务器，他们是组……]]></summary>
+    <summary type="html"><![CDATA[node node即节点，是物理服务器或者虚拟服务器，他们是组成kubernetes资源池的……]]></summary>
             
-                <content type="html"><![CDATA[<h1 id="kubernetes基本概念一">Kubernetes基本概念一</h1>
-<h2 id="node">node</h2>
+                <content type="html"><![CDATA[<h2 id="node">node</h2>
 <p>  <code>node</code>即节点，是物理服务器或者虚拟服务器，他们是组成kubernetes资源池的基础。节点分为两种色，<code>master</code>节点和<code>worker</code>节点。master节点负责资源调度，集群状态控制等，worker节点负责运行用户容器，承接负载。</p>
 <h5 id="获取node信息">获取node信息</h5>
 <p>  通过<code>kubectl</code>命令可以获取node信息</p>
@@ -310,7 +580,23 @@ tutorial          Active   7s
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/kubernetes/" term="kubernetes" label="kubernetes" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/kubernetes/" term="kubernetes" label="kubernetes" />
+                            
+                        
                     
                 
             
@@ -320,7 +606,7 @@ tutorial          Active   7s
             <title type="text">Python装饰器</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/%E8%A3%85%E9%A5%B0%E5%99%A8/" />
             <id>https://cyzcyzz.github.io/posts/%E8%A3%85%E9%A5%B0%E5%99%A8/</id>
-            <updated>2020-03-15T00:27:39+08:00</updated>
+            <updated>2020-03-16T23:39:47+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -382,7 +668,23 @@ geet()
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/python/" term="python" label="python" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/%E8%A3%85%E9%A5%B0%E5%99%A8/" term="装饰器" label="装饰器" />
+                            
+                        
                     
                 
             
@@ -392,7 +694,7 @@ geet()
             <title type="text">TCP总结一</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/" />
             <id>https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/</id>
-            <updated>2020-03-15T00:27:33+08:00</updated>
+            <updated>2020-03-16T23:41:26+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -435,7 +737,23 @@ net.ipv4.tcp_fin_timeout 修改系默认的 TIMEOUT 时间
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/network/" term="network" label="network" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/tcp/" term="TCP" label="TCP" />
+                            
+                        
                     
                 
             
