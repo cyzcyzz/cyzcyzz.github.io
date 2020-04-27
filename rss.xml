@@ -23,10 +23,51 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Mon, 30 Mar 2020 20:33:02 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 27 Apr 2020 10:06:29 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Nginx 参数调优</title>
+                <link>https://cyzcyzz.github.io/posts/nginx_agument/</link>
+                <guid isPermaLink="true">https://cyzcyzz.github.io/posts/nginx_agument/</guid>
+                <pubDate>Sun, 26 Apr 2020 18:19:27 +0800</pubDate>
+                
+                    <author>cyzcyzz@163.com (oyfacc)</author>
+                
+                <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
+                
+    
+    <description><![CDATA[内核参数 值 解释 /proc/sys/net/ipv4/tcp_max_syn_backlog 2048 调整半连接队列的大小 /proc/sys/net/core/somaxconn 2048 tcp最大连接数 连接取决于这两个值的最……]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/categories/nginx/">nginx</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/tags/nginx%E8%B0%83%E4%BC%98/">nginx调优</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Kubernetes基本概念(2)</title>

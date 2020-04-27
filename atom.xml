@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-03-30T20:33:02+08:00</updated>
+    <updated>2020-04-27T10:06:29+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -17,10 +17,53 @@
     <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
         <entry>
+            <title type="text">Nginx 参数调优</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/nginx_agument/" />
+            <id>https://cyzcyzz.github.io/posts/nginx_agument/</id>
+            <updated>2020-04-26T18:20:45+08:00</updated>
+            <published>2020-04-26T18:19:27+08:00</published>
+            <author>
+                    <name>oyfacc</name>
+                    <uri>https://cyzcyzz.github.io/</uri>
+                    <email>cyzcyzz@163.com</email>
+                    </author>
+            <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
+    
+    <summary type="html"><![CDATA[内核参数 值 解释 /proc/sys/net/ipv4/tcp_max_syn_backlog 2048 调整半连接队列的大小 /proc/sys/net/core/somaxconn 2048 tcp最大连接数 连接取决于这两个值的最……]]></summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/nginx/" term="nginx" label="nginx" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/nginx%E8%B0%83%E4%BC%98/" term="nginx调优" label="nginx调优" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Kubernetes基本概念(2)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/kubernetes-base-2/" />
             <id>https://cyzcyzz.github.io/posts/kubernetes-base-2/</id>
-            <updated>2020-03-30T20:25:31+08:00</updated>
+            <updated>2020-04-12T15:02:10+08:00</updated>
             <published>2020-03-28T23:21:09+08:00</published>
             <author>
                     <name>oyfacc</name>
