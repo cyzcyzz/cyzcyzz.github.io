@@ -23,7 +23,7 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Sat, 23 May 2020 14:14:29 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2020 15:43:41 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
@@ -51,7 +51,7 @@
                                 
                                 
                                 
-                                    <category domain="https://cyzcyzz.github.io/categories/k8s/">k8s</category>
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
                                 
                             
                         
@@ -133,7 +133,7 @@
                                 
                                 
                                 
-                                    <category domain="https://cyzcyzz.github.io/categories/k8s/">k8s</category>
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
                                 
                             
                         
@@ -297,7 +297,7 @@
                                 
                                 
                                 
-                                    <category domain="https://cyzcyzz.github.io/categories/docker/">docker</category>
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
                                 
                             
                         
@@ -338,7 +338,7 @@
                                 
                                 
                                 
-                                    <category domain="https://cyzcyzz.github.io/categories/docker/">docker</category>
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
                                 
                             
                         
@@ -379,7 +379,7 @@
                                 
                                 
                                 
-                                    <category domain="https://cyzcyzz.github.io/categories/kubernetes/">kubernetes</category>
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
                                 
                             
                         

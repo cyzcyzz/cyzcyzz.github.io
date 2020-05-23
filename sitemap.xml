@@ -4,37 +4,37 @@
   
   <url>
     <loc>https://cyzcyzz.github.io/categories/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cyzcyzz.github.io/categories/k8s/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/k8s-vloume/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/volume/</loc>
-    <lastmod>2020-05-23T14:07:00+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/</loc>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
@@ -54,12 +54,12 @@
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/kubernetes-base-2/</loc>
-    <lastmod>2020-05-16T11:21:15+08:00</lastmod>
+    <lastmod>2020-05-23T15:42:45+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2020-05-16T11:21:15+08:00</lastmod>
+    <lastmod>2020-05-23T15:42:45+08:00</lastmod>
   </url>
   
   <url>
@@ -98,28 +98,23 @@
   </url>
   
   <url>
-    <loc>https://cyzcyzz.github.io/categories/docker/</loc>
-    <lastmod>2020-03-30T20:25:34+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cyzcyzz.github.io/posts/docker%E9%95%9C%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2020-03-30T20:25:33+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:06+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/image/</loc>
-    <lastmod>2020-03-30T20:25:33+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:06+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/docker-%E4%B8%89%E9%83%A8%E6%9B%B2/</loc>
-    <lastmod>2020-03-30T20:25:34+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/docker%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2020-03-30T20:25:34+08:00</lastmod>
+    <lastmod>2020-05-23T15:43:15+08:00</lastmod>
   </url>
   
   <url>
@@ -129,17 +124,12 @@
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/k8s%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2020-03-30T20:25:32+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cyzcyzz.github.io/categories/kubernetes/</loc>
-    <lastmod>2020-03-30T20:25:32+08:00</lastmod>
+    <lastmod>2020-05-23T15:42:54+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/kubernetes-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2020-03-30T20:25:32+08:00</lastmod>
+    <lastmod>2020-05-23T15:42:54+08:00</lastmod>
   </url>
   
   <url>
