@@ -23,10 +23,51 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Sat, 23 May 2020 14:06:31 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2020 14:14:29 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
+        
+            <item>
+                <title>K8s Vloume</title>
+                <link>https://cyzcyzz.github.io/posts/k8s-vloume/</link>
+                <guid isPermaLink="true">https://cyzcyzz.github.io/posts/k8s-vloume/</guid>
+                <pubDate>Sat, 16 May 2020 11:20:29 +0800</pubDate>
+                
+                    <author>cyzcyzz@163.com (oyfacc)</author>
+                
+                <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
+                
+    
+    <description><![CDATA[基本介绍 场景一：当我们用K8S创建了一个pod的时候，容器顶部附加了一个可写层用……]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/categories/k8s/">k8s</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/tags/volume/">volume</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Nginx 参数调优</title>
