@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-04-27T10:06:29+08:00</updated>
+    <updated>2020-05-23T14:06:31+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Nginx 参数调优</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/nginx_agument/" />
             <id>https://cyzcyzz.github.io/posts/nginx_agument/</id>
-            <updated>2020-04-26T18:20:45+08:00</updated>
+            <updated>2020-05-16T11:21:53+08:00</updated>
             <published>2020-04-26T18:19:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -51,7 +51,7 @@
                             
                             
                             
-                                <category scheme="https://cyzcyzz.github.io/tags/nginx%E8%B0%83%E4%BC%98/" term="nginx调优" label="nginx调优" />
+                                <category scheme="https://cyzcyzz.github.io/tags/%E5%8F%82%E6%95%B0/" term="参数" label="参数" />
                             
                         
                     
@@ -63,7 +63,7 @@
             <title type="text">Kubernetes基本概念(2)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/kubernetes-base-2/" />
             <id>https://cyzcyzz.github.io/posts/kubernetes-base-2/</id>
-            <updated>2020-04-12T15:02:10+08:00</updated>
+            <updated>2020-05-16T11:21:15+08:00</updated>
             <published>2020-03-28T23:21:09+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -84,7 +84,7 @@
                             
                             
                             
-                                <category scheme="https://cyzcyzz.github.io/categories/kubernetes/" term="kubernetes" label="kubernetes" />
+                                <category scheme="https://cyzcyzz.github.io/categories/k8s/" term="k8s" label="k8s" />
                             
                         
                     
@@ -94,7 +94,7 @@
                             
                             
                             
-                                <category scheme="https://cyzcyzz.github.io/tags/k8s%E6%A6%82%E5%BF%B5/" term="k8s概念" label="k8s概念" />
+                                <category scheme="https://cyzcyzz.github.io/tags/%E6%A6%82%E5%BF%B5/" term="概念" label="概念" />
                             
                         
                     
@@ -189,10 +189,10 @@
         </entry>
     
         <entry>
-            <title type="text">TCP总结一</title>
+            <title type="text">TCP问题</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/" />
             <id>https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/</id>
-            <updated>2020-03-30T20:25:27+08:00</updated>
+            <updated>2020-05-23T13:10:15+08:00</updated>
             <published>2020-03-06T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -201,7 +201,7 @@
                     </author>
             <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
     
-    <summary type="html"><![CDATA[关于TCP连接队列的一些总结 最近一些时间线上的服务器会报TcpListenDro……]]></summary>
+    <summary type="html"><![CDATA[TCP连接总结 最近一些时间线上的服务器会报TcpListenDrop和TcpOv……]]></summary>
             
             
             

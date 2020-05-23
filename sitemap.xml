@@ -4,52 +4,52 @@
   
   <url>
     <loc>https://cyzcyzz.github.io/categories/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/categories/nginx/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
+    <lastmod>2020-05-16T11:21:53+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/nginx_agument/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cyzcyzz.github.io/tags/nginx%E8%B0%83%E4%BC%98/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
+    <lastmod>2020-05-16T11:21:53+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/</loc>
-    <lastmod>2020-04-26T18:20:45+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyzcyzz.github.io/tags/k8s%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2020-04-12T15:02:10+08:00</lastmod>
+    <loc>https://cyzcyzz.github.io/tags/%E5%8F%82%E6%95%B0/</loc>
+    <lastmod>2020-05-16T11:21:53+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyzcyzz.github.io/categories/kubernetes/</loc>
-    <lastmod>2020-04-12T15:02:10+08:00</lastmod>
+    <loc>https://cyzcyzz.github.io/categories/k8s/</loc>
+    <lastmod>2020-05-16T11:21:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/kubernetes-base-2/</loc>
-    <lastmod>2020-04-12T15:02:10+08:00</lastmod>
+    <lastmod>2020-05-16T11:21:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cyzcyzz.github.io/tags/%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2020-05-16T11:21:15+08:00</lastmod>
   </url>
   
   <url>
@@ -74,17 +74,17 @@
   
   <url>
     <loc>https://cyzcyzz.github.io/categories/network/</loc>
-    <lastmod>2020-03-30T20:25:27+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/tags/tcp/</loc>
-    <lastmod>2020-03-30T20:25:27+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/</loc>
-    <lastmod>2020-03-30T20:25:27+08:00</lastmod>
+    <lastmod>2020-05-23T13:10:15+08:00</lastmod>
   </url>
   
   <url>
@@ -115,6 +115,16 @@
   <url>
     <loc>https://cyzcyzz.github.io/about/</loc>
     <lastmod>2020-03-15T00:40:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cyzcyzz.github.io/tags/k8s%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2020-03-30T20:25:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cyzcyzz.github.io/categories/kubernetes/</loc>
+    <lastmod>2020-03-30T20:25:32+08:00</lastmod>
   </url>
   
   <url>
