@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-05-23T15:43:41+08:00</updated>
+    <updated>2020-06-06T16:43:35+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -17,10 +17,53 @@
     <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
         <entry>
-            <title type="text">K8s Vloume</title>
+            <title type="text">Linux基础入门(3)</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/linux-three/" />
+            <id>https://cyzcyzz.github.io/posts/linux-three/</id>
+            <updated>2020-06-06T16:41:57+08:00</updated>
+            <published>2020-06-06T12:09:40+08:00</published>
+            <author>
+                    <name>oyfacc</name>
+                    <uri>https://cyzcyzz.github.io/</uri>
+                    <email>cyzcyzz@163.com</email>
+                    </author>
+            <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
+    
+    <summary type="html"><![CDATA[命令简介 通常在命令行执行的操作，我们称之为命令。linux中，命令分为两种类型，……]]></summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/linux/" term="linux" label="linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/" term="linux基础" label="linux基础" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">K8S-Vloume</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/k8s-vloume/" />
             <id>https://cyzcyzz.github.io/posts/k8s-vloume/</id>
-            <updated>2020-05-23T15:43:00+08:00</updated>
+            <updated>2020-06-06T16:42:54+08:00</updated>
             <published>2020-05-16T11:20:29+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -192,7 +235,7 @@
             <title type="text">Linux基础入门(1)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/linux-one/" />
             <id>https://cyzcyzz.github.io/posts/linux-one/</id>
-            <updated>2020-03-30T20:25:30+08:00</updated>
+            <updated>2020-06-06T16:42:16+08:00</updated>
             <published>2020-03-16T23:33:11+08:00</published>
             <author>
                     <name>oyfacc</name>

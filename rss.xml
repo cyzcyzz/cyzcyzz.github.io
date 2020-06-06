@@ -23,13 +23,54 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Sat, 23 May 2020 15:43:41 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2020 16:43:35 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
         
             <item>
-                <title>K8s Vloume</title>
+                <title>Linux基础入门(3)</title>
+                <link>https://cyzcyzz.github.io/posts/linux-three/</link>
+                <guid isPermaLink="true">https://cyzcyzz.github.io/posts/linux-three/</guid>
+                <pubDate>Sat, 06 Jun 2020 12:09:40 +0800</pubDate>
+                
+                    <author>cyzcyzz@163.com (oyfacc)</author>
+                
+                <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
+                
+    
+    <description><![CDATA[命令简介 通常在命令行执行的操作，我们称之为命令。linux中，命令分为两种类型，……]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/categories/linux/">linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/">linux基础</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>K8S-Vloume</title>
                 <link>https://cyzcyzz.github.io/posts/k8s-vloume/</link>
                 <guid isPermaLink="true">https://cyzcyzz.github.io/posts/k8s-vloume/</guid>
                 <pubDate>Sat, 16 May 2020 11:20:29 +0800</pubDate>
