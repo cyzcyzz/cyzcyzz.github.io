@@ -23,10 +23,43 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Wed, 01 Jul 2020 17:42:55 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2020 07:52:39 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Namespace</title>
+                <link>https://cyzcyzz.github.io/posts/namespace/</link>
+                <guid isPermaLink="true">https://cyzcyzz.github.io/posts/namespace/</guid>
+                <pubDate>Sun, 05 Jul 2020 22:30:20 +0800</pubDate>
+                
+                    <author>cyzcyzz@163.com (oyfacc)</author>
+                
+                <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
+                
+    
+    <description><![CDATA[Docker引爆了虚拟化领域对容器技术的关注，成为了现在最热门的技术之一。这边文……]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Goroutine</title>

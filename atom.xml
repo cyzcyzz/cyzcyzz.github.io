@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-07-01T17:42:55+08:00</updated>
+    <updated>2020-07-06T07:52:39+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -16,6 +16,41 @@
             </author>
     <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
+        <entry>
+            <title type="text">Namespace</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/namespace/" />
+            <id>https://cyzcyzz.github.io/posts/namespace/</id>
+            <updated>2020-07-06T07:52:23+08:00</updated>
+            <published>2020-07-05T22:30:20+08:00</published>
+            <author>
+                    <name>oyfacc</name>
+                    <uri>https://cyzcyzz.github.io/</uri>
+                    <email>cyzcyzz@163.com</email>
+                    </author>
+            <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
+    
+    <summary type="html"><![CDATA[Docker引爆了虚拟化领域对容器技术的关注，成为了现在最热门的技术之一。这边文……]]></summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/" term="容器" label="容器" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Goroutine</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/goroutine/" />
@@ -192,7 +227,7 @@
             <title type="text">Kubernetes基本概念(2)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/kubernetes-base-2/" />
             <id>https://cyzcyzz.github.io/posts/kubernetes-base-2/</id>
-            <updated>2020-05-23T15:42:45+08:00</updated>
+            <updated>2020-07-05T22:28:55+08:00</updated>
             <published>2020-03-28T23:21:09+08:00</published>
             <author>
                     <name>oyfacc</name>
