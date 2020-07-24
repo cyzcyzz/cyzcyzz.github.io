@@ -23,10 +23,35 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Thu, 23 Jul 2020 17:46:30 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2020 17:29:02 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Cgroups</title>
+                <link>https://cyzcyzz.github.io/posts/cgroups/</link>
+                <guid isPermaLink="true">https://cyzcyzz.github.io/posts/cgroups/</guid>
+                <pubDate>Fri, 24 Jul 2020 09:55:57 +0800</pubDate>
+                
+                    <author>cyzcyzz@163.com (oyfacc)</author>
+                
+                <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
+                
+    
+    <description><![CDATA[进程隔离后，本身会看不到其他的进程，此时会发生一个问题，独占资源，也就是说，我这……]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>K8S资源限制</title>
