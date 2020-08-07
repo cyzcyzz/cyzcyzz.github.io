@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-07-24T17:29:02+08:00</updated>
+    <updated>2020-08-07T15:56:21+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -16,6 +16,41 @@
             </author>
     <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
+        <entry>
+            <title type="text">Docker安装指定版本</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker-install/" />
+            <id>https://cyzcyzz.github.io/posts/docker-install/</id>
+            <updated>2020-08-07T15:56:09+08:00</updated>
+            <published>2020-08-07T15:54:02+08:00</published>
+            <author>
+                    <name>oyfacc</name>
+                    <uri>https://cyzcyzz.github.io/</uri>
+                    <email>cyzcyzz@163.com</email>
+                    </author>
+            <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
+    
+    <summary type="html"><![CDATA[指定版本安装docker 1 2 3 4 5 6 7 8 9 10 11 NEW_USER=udocker adduser $NEW_USER echo &#34;$NEW_USERALL=(ALL) ALL&#34; &gt;&gt; /etc/sudoers export docker_version=18.06.3 yum install -y yum-utils device-mapper-persistent-data lvm2 bash-completion……]]></summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/" term="容器" label="容器" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Cgroups</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/cgroups/" />
