@@ -23,7 +23,7 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Fri, 07 Aug 2020 15:56:21 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2020 15:59:39 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
@@ -39,7 +39,7 @@
                 <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
                 
     
-    <description><![CDATA[指定版本安装docker 1 2 3 4 5 6 7 8 9 10 11 NEW_USER=udocker adduser $NEW_USER echo &#34;$NEW_USERALL=(ALL) ALL&#34; &gt;&gt; /etc/sudoers export docker_version=18.06.3 yum install -y yum-utils device-mapper-persistent-data lvm2 bash-completion……]]></description>
+    <description><![CDATA[生产环境中，我们经常需要安装指定版本的docker，稳定性和安全性方面都能得到保……]]></description>
                 
                 
                 
