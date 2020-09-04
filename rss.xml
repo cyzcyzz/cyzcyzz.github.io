@@ -23,10 +23,43 @@
         
             <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
         
-        <lastBuildDate>Fri, 07 Aug 2020 15:59:39 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2020 17:00:44 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://cyzcyzz.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Prometheus本地存储</title>
+                <link>https://cyzcyzz.github.io/posts/prometheus-local-storage/</link>
+                <guid isPermaLink="true">https://cyzcyzz.github.io/posts/prometheus-local-storage/</guid>
+                <pubDate>Fri, 04 Sep 2020 16:10:02 +0800</pubDate>
+                
+                    <author>cyzcyzz@163.com (oyfacc)</author>
+                
+                <copyright>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</copyright>
+                
+    
+    <description><![CDATA[Prometheus（普罗米修斯）存储经历了三个重要版本的变更v1&gt;v2&……]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/categories/%E7%9B%91%E6%8E%A7/">监控</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Docker安装指定版本</title>
@@ -104,6 +137,14 @@
                 
                 
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/">容器</category>
+                                
+                            
                         
                     
                         
@@ -206,14 +247,6 @@
                         
                     
                         
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/goroutine/">goroutine</category>
-                                
-                            
-                        
                     
                 
             </item>
@@ -246,14 +279,6 @@
                             
                         
                     
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/">linux基础</category>
-                                
-                            
                         
                     
                 
@@ -329,14 +354,6 @@
                         
                     
                         
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/%E5%8F%82%E6%95%B0/">参数</category>
-                                
-                            
-                        
                     
                 
             </item>
@@ -369,14 +386,6 @@
                             
                         
                     
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/%E6%A6%82%E5%BF%B5/">概念</category>
-                                
-                            
                         
                     
                 
@@ -411,14 +420,6 @@
                         
                     
                         
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/">linux基础</category>
-                                
-                            
-                        
                     
                 
             </item>
@@ -451,14 +452,6 @@
                             
                         
                     
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/">linux基础</category>
-                                
-                            
                         
                     
                 
@@ -493,14 +486,6 @@
                         
                     
                         
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/tcp/">TCP</category>
-                                
-                            
-                        
                     
                 
             </item>
@@ -533,14 +518,6 @@
                             
                         
                     
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/image/">image</category>
-                                
-                            
                         
                     
                 
@@ -575,14 +552,6 @@
                         
                     
                         
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/docker%E5%9F%BA%E7%A1%80/">docker基础</category>
-                                
-                            
-                        
                     
                 
             </item>
@@ -616,14 +585,6 @@
                         
                     
                         
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/k8s%E6%A6%82%E5%BF%B5/">k8s概念</category>
-                                
-                            
-                        
                     
                 
             </item>
@@ -656,14 +617,6 @@
                             
                         
                     
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://cyzcyzz.github.io/tags/%E8%A3%85%E9%A5%B0%E5%99%A8/">装饰器</category>
-                                
-                            
                         
                     
                 

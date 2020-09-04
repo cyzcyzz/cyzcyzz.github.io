@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">OyFaCC</title>
     <subtitle type="html">程元召的个人博客！</subtitle>
-    <updated>2020-08-07T15:59:39+08:00</updated>
+    <updated>2020-09-04T17:00:44+08:00</updated>
     <id>https://cyzcyzz.github.io/</id>
     <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://cyzcyzz.github.io/atom.xml" />
@@ -16,6 +16,41 @@
             </author>
     <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
     <generator uri="https://gohugo.io/" version="0.65.3">Hugo</generator>
+        <entry>
+            <title type="text">Prometheus本地存储</title>
+            <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/prometheus-local-storage/" />
+            <id>https://cyzcyzz.github.io/posts/prometheus-local-storage/</id>
+            <updated>2020-09-04T16:58:20+08:00</updated>
+            <published>2020-09-04T16:10:02+08:00</published>
+            <author>
+                    <name>oyfacc</name>
+                    <uri>https://cyzcyzz.github.io/</uri>
+                    <email>cyzcyzz@163.com</email>
+                    </author>
+            <rights>[京ICP备 20009601号](http://www.beian.miit.gov.cn/)</rights>
+    
+    <summary type="html"><![CDATA[Prometheus（普罗米修斯）存储经历了三个重要版本的变更v1&gt;v2&……]]></summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/%E7%9B%91%E6%8E%A7/" term="监控" label="监控" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Docker安装指定版本</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker-install/" />
@@ -82,7 +117,7 @@
             <title type="text">K8S资源限制</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/k8s-limit/" />
             <id>https://cyzcyzz.github.io/posts/k8s-limit/</id>
-            <updated>2020-07-23T17:46:22+08:00</updated>
+            <updated>2020-09-04T16:59:00+08:00</updated>
             <published>2020-07-23T11:20:41+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -98,6 +133,14 @@
             
             
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://cyzcyzz.github.io/categories/%E5%AE%B9%E5%99%A8/" term="容器" label="容器" />
+                            
+                        
                     
                 
                     
@@ -179,7 +222,7 @@
             <title type="text">Goroutine</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/goroutine/" />
             <id>https://cyzcyzz.github.io/posts/goroutine/</id>
-            <updated>2020-07-01T17:42:35+08:00</updated>
+            <updated>2020-09-04T16:58:45+08:00</updated>
             <published>2020-07-01T10:05:02+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -206,14 +249,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/goroutine/" term="goroutine" label="goroutine" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -222,7 +257,7 @@
             <title type="text">Linux基础入门(3)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/linux-three/" />
             <id>https://cyzcyzz.github.io/posts/linux-three/</id>
-            <updated>2020-06-06T16:41:57+08:00</updated>
+            <updated>2020-09-04T16:59:24+08:00</updated>
             <published>2020-06-06T12:09:40+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -248,14 +283,6 @@
                         
                     
                 
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/" term="linux基础" label="linux基础" />
-                            
-                        
                     
                 
             
@@ -308,7 +335,7 @@
             <title type="text">Nginx 参数调优</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/nginx_agument/" />
             <id>https://cyzcyzz.github.io/posts/nginx_agument/</id>
-            <updated>2020-05-16T11:21:53+08:00</updated>
+            <updated>2020-09-04T16:59:40+08:00</updated>
             <published>2020-04-26T18:19:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -335,14 +362,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/%E5%8F%82%E6%95%B0/" term="参数" label="参数" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -351,7 +370,7 @@
             <title type="text">Kubernetes基本概念(2)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/kubernetes-base-2/" />
             <id>https://cyzcyzz.github.io/posts/kubernetes-base-2/</id>
-            <updated>2020-07-05T22:28:55+08:00</updated>
+            <updated>2020-09-04T16:59:11+08:00</updated>
             <published>2020-03-28T23:21:09+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -378,14 +397,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/%E6%A6%82%E5%BF%B5/" term="概念" label="概念" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -394,7 +405,7 @@
             <title type="text">Linux基础入门(2)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/linux-two/" />
             <id>https://cyzcyzz.github.io/posts/linux-two/</id>
-            <updated>2020-07-23T10:25:57+08:00</updated>
+            <updated>2020-09-04T16:59:27+08:00</updated>
             <published>2020-03-27T22:29:06+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -421,14 +432,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/" term="linux基础" label="linux基础" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -437,7 +440,7 @@
             <title type="text">Linux基础入门(1)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/linux-one/" />
             <id>https://cyzcyzz.github.io/posts/linux-one/</id>
-            <updated>2020-06-06T16:42:16+08:00</updated>
+            <updated>2020-09-04T16:59:20+08:00</updated>
             <published>2020-03-16T23:33:11+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -464,14 +467,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/linux%E5%9F%BA%E7%A1%80/" term="linux基础" label="linux基础" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -480,7 +475,7 @@
             <title type="text">TCP问题</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/" />
             <id>https://cyzcyzz.github.io/posts/tcp%E9%93%BE%E6%8E%A5/</id>
-            <updated>2020-05-23T13:10:15+08:00</updated>
+            <updated>2020-09-04T16:59:55+08:00</updated>
             <published>2020-03-06T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -507,14 +502,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/tcp/" term="TCP" label="TCP" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -523,7 +510,7 @@
             <title type="text">Docker镜像操作</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker%E9%95%9C%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/" />
             <id>https://cyzcyzz.github.io/posts/docker%E9%95%9C%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
-            <updated>2020-05-23T15:43:06+08:00</updated>
+            <updated>2020-09-04T16:58:40+08:00</updated>
             <published>2020-03-05T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -550,14 +537,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/image/" term="image" label="image" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -566,7 +545,7 @@
             <title type="text">Docker三部曲</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/docker-%E4%B8%89%E9%83%A8%E6%9B%B2/" />
             <id>https://cyzcyzz.github.io/posts/docker-%E4%B8%89%E9%83%A8%E6%9B%B2/</id>
-            <updated>2020-05-23T15:43:15+08:00</updated>
+            <updated>2020-09-04T16:58:34+08:00</updated>
             <published>2020-03-04T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -593,14 +572,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/docker%E5%9F%BA%E7%A1%80/" term="docker基础" label="docker基础" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -609,7 +580,7 @@
             <title type="text">Kubernetes基本概念(1)</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/kubernetes-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" />
             <id>https://cyzcyzz.github.io/posts/kubernetes-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</id>
-            <updated>2020-05-23T15:42:54+08:00</updated>
+            <updated>2020-09-04T16:59:09+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -636,14 +607,6 @@
                     
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/k8s%E6%A6%82%E5%BF%B5/" term="k8s概念" label="k8s概念" />
-                            
-                        
-                    
                 
             
         </entry>
@@ -652,7 +615,7 @@
             <title type="text">Python装饰器</title>
             <link rel="alternate" type="text/html" href="https://cyzcyzz.github.io/posts/%E8%A3%85%E9%A5%B0%E5%99%A8/" />
             <id>https://cyzcyzz.github.io/posts/%E8%A3%85%E9%A5%B0%E5%99%A8/</id>
-            <updated>2020-03-30T20:25:35+08:00</updated>
+            <updated>2020-09-04T16:58:27+08:00</updated>
             <published>2020-03-03T23:03:27+08:00</published>
             <author>
                     <name>oyfacc</name>
@@ -678,14 +641,6 @@
                         
                     
                 
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://cyzcyzz.github.io/tags/%E8%A3%85%E9%A5%B0%E5%99%A8/" term="装饰器" label="装饰器" />
-                            
-                        
                     
                 
             
